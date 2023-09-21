@@ -21,6 +21,12 @@
         <configuration>
           <warSourceDirectory>WebContent</warSourceDirectory>
           <failOnMissingWebXml>false</failOnMissingWebXml>
+          <archive>
+            <manifestEntries>
+              <!-- Add build number or version as a manifest entry -->
+              <Build-Number>${buildNumber}</Build-Number>
+            </manifestEntries>
+          </archive>
         </configuration>
       </plugin>
     </plugins>
