@@ -24,7 +24,7 @@
           <archive>
             <manifestEntries>
               <!-- Add build number or version as a manifest entry -->
-              <Build-Number>${buildNumber}</Build-Number>
+              <Build-Number>1.0.0</Build-Number>
             </manifestEntries>
           </archive>
         </configuration>
